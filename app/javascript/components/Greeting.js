@@ -40,6 +40,7 @@ class Greeting extends React.Component {
     return (
       <React.Fragment>
         <h2>How to say Hello World in different languages {this.props.greeting} </h2>
+        <p>Click the button below to get a random greeting</p>
         <br/>
         <button className="btn" onClick={() => this.props.getGreetings()}>Get Greetings</button>
         <br />
