@@ -22,7 +22,19 @@ Follow the steps bellow to get a local copy up and running.
 
 - Run `cd hello-react-rails` to move to the project folder.
 
--  Run `bundle install` and `npm install` from the command line to install dependencies.
+-  Run the following commands from the command line to install dependencies.
+```npm
+rails webpacker:install
+```
+```npm
+rails webpacker:install:react
+```
+```npm
+npm i
+```
+```npm
+bundle i
+```
 
 -  Run `rails db:create`, and `rails db:migrate` to create database.
 
