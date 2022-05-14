@@ -1,24 +1,74 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello React Rails
+This is a project created with a react frontend and a rails backend which displays "Hello world" in the following languages: English, French, Spanish, Japanesse, Chinese and Italian.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+  - Ruby/Rails
+  - PostgreSQL
+  - React gem
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
 
-* Deployment instructions
+Follow the steps bellow to get a local copy up and running.
 
-* ...
+- Run `git clone https://github.com/Kingstalux/Hello-React-Rails.git` from your terminal to clone the repo from GitHub.
+
+- Run `cd hello-react-rails` to move to the project folder.
+
+-  Run the following commands from the command line to install dependencies.
+```npm
+rails webpacker:install
+```
+```npm
+rails webpacker:install:react
+```
+```npm
+npm i
+```
+```npm
+bundle i
+```
+
+-  Run `rails db:create`, and `rails db:migrate` to create database.
+
+-  Run `rails s` to run the local server
+
+
+
+
+
+## Authors
+
+👤 **Ngu Kingsely**
+
+- GitHub: [@Kingstalux](https://github.com/Kingstalux)
+- Twitter: [@NguKingsley](https://twitter.com/NguKingsley)
+- LinkedIn: [Ngu Kingsely](https://www.linkedin.com/in/ngu-kingsely-junior-cho-974b60136/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
